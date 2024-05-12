@@ -7,7 +7,9 @@ import { LinkCart } from './styles'
 const Header = () => (
   <HeaderBar>
     <div>
-      <img src={logo} alt="EPLAY" />
+      <Link to="/">
+        <img src={logo} alt="EPLAY" />
+      </Link>
       <nav>
         <Links>
           <LinkItem>
