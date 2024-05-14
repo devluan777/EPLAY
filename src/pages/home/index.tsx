@@ -95,8 +95,8 @@ const emBreve: Game[] = [
 const Home = () => (
   <>
     <Banner />
-    <ProductsList games={promocoes} title="Promoções" background="gray" />
-    <ProductsList games={emBreve} title="em breve" background="black" />
+    <ProductsList games={promocoes} Title="Promoções" background="gray" />
+    <ProductsList games={emBreve} Title="em breve" background="black" />
   </>
 )
 

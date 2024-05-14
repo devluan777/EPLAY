@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { cores } from '../../styles'
-import Tag from '../Tag'
 import { TagContainer } from '../Tag/styles'
 export const Banner = styled.div`
   position: relative;
