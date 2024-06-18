@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { cores } from '../../styles'
+import { breackpoints, cores } from '../../styles'
 
 export const HeaderBar = styled.header`
   background-color: ${cores.cinza};
@@ -17,6 +17,10 @@ export const HeaderBar = styled.header`
   div {
     display: flex;
     align-items: center;
+
+    @media (max-width: ${breackpoints.tablet}) {
+      display: none;
+    }
   }
 `
 
@@ -28,7 +32,7 @@ export const LinkItem = styled.li`
   margin-right: 16px;
 `
 
-export const LinkCart = styled.a`
+export const CartButton = styled.a`
   display: flex;
   img {
     margin-left: 16px;

@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import Tag from '../Tag'
 import { Card, Descricao, Titulo, Infos } from './styles'
 

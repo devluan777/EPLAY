@@ -7,6 +7,10 @@ export const cores = {
   verde: '#10ac84',
   cinzaClaro: '#A3A3A3'
 }
+export const breackpoints = {
+  desktop: '1024px',
+  tablet: '768px'
+}
 
 export const GlobalCss = createGlobalStyle`
 
@@ -26,6 +30,9 @@ body {
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
+
+  @media (max-width: ${breackpoints.desktop}) {
+  max-width: 80%;
 }
 
 `
